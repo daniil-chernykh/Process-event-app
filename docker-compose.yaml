@@ -1,0 +1,20 @@
+services:
+  event-generator:
+    build:
+      context: ./event-generator
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - event-network
+  event-processor:
+    build:
+      context: ./event-processor
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - event-network
+networks:
+  event-network:
+    driver: bridge

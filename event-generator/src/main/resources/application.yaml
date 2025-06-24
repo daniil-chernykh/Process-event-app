@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: event-generator
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+processor:
+  url: http://event-processor:8081/api/events
+
+event:
+  interval: 2000
