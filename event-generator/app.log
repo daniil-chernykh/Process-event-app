@@ -1,0 +1,3 @@
+2025-06-24T19:24:54.181+03:00  INFO 21000 --- [event-generator] [main] r.h.e.EventGeneratorApplicationTests     : Starting EventGeneratorApplicationTests using Java 22.0.2 with PID 21000 (started by danii in C:\Users\danii\Desktop\process-event-app\event-generator)
+2025-06-24T19:24:54.182+03:00  INFO 21000 --- [event-generator] [main] r.h.e.EventGeneratorApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T19:24:55.260+03:00  INFO 21000 --- [event-generator] [main] r.h.e.EventGeneratorApplicationTests     : Started EventGeneratorApplicationTests in 1.433 seconds (process running for 2.177)

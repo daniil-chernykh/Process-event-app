@@ -1,0 +1,22 @@
+2025-06-24T19:24:38.567+03:00  INFO 16376 --- [event-processor] [main] r.h.e.EventProcessorApplicationTests     : Starting EventProcessorApplicationTests using Java 22.0.2 with PID 16376 (started by danii in C:\Users\danii\Desktop\process-event-app\event-processor)
+2025-06-24T19:24:38.568+03:00  INFO 16376 --- [event-processor] [main] r.h.e.EventProcessorApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T19:24:39.715+03:00  INFO 16376 --- [event-processor] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-24T19:24:39.771+03:00  INFO 16376 --- [event-processor] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-06-24T19:24:39.804+03:00  INFO 16376 --- [event-processor] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-24T19:24:40.177+03:00  INFO 16376 --- [event-processor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-24T19:24:40.362+03:00  INFO 16376 --- [event-processor] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-06-24T19:24:40.364+03:00  INFO 16376 --- [event-processor] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-24T19:24:40.388+03:00  WARN 16376 --- [event-processor] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-24T19:24:40.404+03:00  INFO 16376 --- [event-processor] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-24T19:24:41.130+03:00  INFO 16376 --- [event-processor] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-24T19:24:42.120+03:00  WARN 16376 --- [event-processor] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-24T19:24:42.566+03:00  INFO 16376 --- [event-processor] [main] r.h.e.EventProcessorApplicationTests     : Started EventProcessorApplicationTests in 4.369 seconds (process running for 5.475)
+2025-06-24T19:24:43.051+03:00  INFO 16376 --- [event-processor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-24T19:24:43.053+03:00  INFO 16376 --- [event-processor] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

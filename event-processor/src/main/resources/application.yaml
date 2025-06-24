@@ -17,3 +17,10 @@ springdoc:
     path: /api-docs
   swagger-ui:
     path: /swagger-ui.html
+
+logging:
+  level:
+    ru.hamming: INFO
+    org.springframework: WARN
+  file:
+    name: app.log

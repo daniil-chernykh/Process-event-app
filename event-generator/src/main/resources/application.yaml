@@ -14,3 +14,10 @@ processor:
 
 event:
   interval: 2000
+
+logging:
+  level:
+    ru.hamming: INFO
+    org.springframework: WARN
+  file:
+    name: app.log
